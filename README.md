@@ -38,3 +38,20 @@ src/
   main.jsx      entry point with BrowserRouter
   ```
   
+  ## Task 2: Navigation and Page Routing
+
+  A responsive navigation bar with three pages (Home, About, Quote), built with React Router.
+
+  ### Features
+
+  - NavBar components built with  `<nav>` and `<ul>`
+  - Client-side routing with React Router (no full page reloads)
+  - Routes: `/` (Home), `/about` (About), `/quote` (Quote)
+  - Active link highlighting using `NavLink`
+  - Below 786x, the links collapse into a CSS-only hamburger menu
+
+  ### Files added
+
+  - `src/components/NavBar.jsx` and `NavBar.module.css`: navigation bar and its styles
+  - `src/pages/About.jsx` and `Quote.jsx`: placeholder pages
+  - `src/App.jsx`: route definitions
